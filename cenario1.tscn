@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://arbusto.tscn" type="PackedScene" id=2]
+
+[node name="cenario1" type="Node2D"]
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Arbusto" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 94.25, 71.8459 )
+
+[node name="Arbusto2" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 190.12, 54.8231 )
+
+[node name="Arbusto3" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 28.9531, 100.601 )
+
+[node name="Arbusto4" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 100.688, 55.295 )
+
+[node name="Arbusto5" parent="YSort" instance=ExtResource( 2 )]
+position = Vector2( 162.039, 95.1737 )
+
+[node name="Jogador" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 41.4102, 43.5684 )
